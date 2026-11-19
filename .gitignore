@@ -1,0 +1,19 @@
+﻿# Runtime databases, logs & local state
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+*.log
+.env
+.env.*
+
+# Local scratch & private data (keep out of repo)
+/local-data/
+/fixtures-private/
+/tmp/
+
+# OS & IDE noise
+.DS_Store
+Thumbs.db
+.idea/
